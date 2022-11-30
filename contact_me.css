@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&family=Solway:wght@400;500&display=swap');
+
+.Page_container{
+    /*background-image: url(/pexels-francesco-ungaro-2325446.jpg);*/
+    background-image: url(/portfolio8.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.options li a{
+    color: black;
+    text-decoration: none;
+}
+
+.options li a:hover{
+    color: blue;
+    text-decoration: none;
+}
+#e1{
+    color: white;
+    position: absolute;
+    margin: 30px;
+    margin-left: 850px;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+}
+
+#e2{
+    color: white;
+    position: absolute;
+    margin: 30px;
+    left: 100px;
+    margin-left: 850px;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+}
+
+#e3{
+    color: white;
+    position: absolute;
+    margin: 30px;
+    left: 230px;
+    margin-left: 850px;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+}
+
+#e4{
+    color: white;
+    position: absolute;
+    margin: 30px;
+    left: 355px;
+    margin-left: 850px;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+}
+
+#e5{
+    color: white;
+    position: absolute;
+    margin: 30px;
+    left: 535px;
+    margin-left: 825px;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+}
+
+.barBase{
+    border-radius: 0%;
+}
+
+.bar{
+    width: 1510px;
+    height: 65px;
+    background: #a1a1a1;
+    border: 1px solid #000;
+}
+
+.icon{
+    border-radius: 50%;
+}
+
+.circle_icon{
+    width: 50px;
+    height: 50px;
+    background-color: #a1a1a1;
+    border: 4px solid #ffffff;
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 50px;
+    transform: translate(-50%,-50%);
+    background-image: url(/portfolio21.png);
+    background-size: cover;
+}
+
+.head h1{
+    color: #f34079;
+    margin-top: 0px;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+    font-size: 60px;
+}
+
+.link{
+    position: absolute;
+    top:50%;
+    left:47%;
+    transform: translate(-50%,-50%);
+    margin-left: 40px;
+}
+
+.instagram img{
+    height: 20vh;
+    width: 10vw;
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+.instagram img:hover{
+    opacity: 0.7;
+}
+
+.linkedin img{
+    height: 20vh;
+    width: 10vw;
+    text-decoration: none;
+}
+
+.linkedin img:hover{
+    opacity: 0.7;
+}
+
+.github img{
+    height: 20vh;
+    width: 10vw;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.github img:hover{
+    opacity: 0.7;
+}
+
+.phone img{
+    height: 8vh;
+    width: 4vw;
+    text-decoration: none;
+    margin-left: 630px;
+    margin-top: 385px;
+}
+
+.phone h2{
+    color:white;
+    margin-left: 690px;
+    margin-top: -45px;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+    font-weight: bold;
+}
+
+.mail img{
+    height: 8vh;
+    width: 4vw;
+    text-decoration: none;
+    margin-left: 525px;
+    margin-top: 15px;
+}
+
+.mail h2{
+    color: white;
+    margin-left: 600px;
+    margin-top: -45px;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+    font-weight: bold;
+}

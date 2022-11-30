@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&family=Solway:wght@400;500&display=swap');
+.image{
+    background-image: url(/pexels-moose-photos-1037995.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 1px;
+}
+
+.last h1{
+    color: #f34079;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+    margin-top: 290px;
+    margin-left: 290px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.btn{
+    padding: 9px 10px;
+    border-radius: 23px;
+    color:black;
+    background-color:#f34079;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    margin: 0 4px;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    color:whitesmoke;
+    background-color:black;
+}
+
+.btn-sm{
+    font-size: 13px;
+    padding: 10px 19px;
+    margin: 12px 0;
+    margin-left: 700px;
+    margin-top: 20px;
+}

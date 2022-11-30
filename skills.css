@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&family=Solway:wght@400;500&display=swap');
+
+.Page_container{
+    /*background-image: url(/pexels-francesco-ungaro-2325446.jpg);*/
+    background-image: url(/pexels-fwstudio-131683.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.options li a{
+    color: black;
+    text-decoration: none;
+}
+
+.options li a:hover{
+    color: blue;
+    text-decoration: none;
+}
+#e1{
+    color: white;
+    position: absolute;
+    margin: 30px;
+    margin-left: 850px;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+}
+
+#e2{
+    color: white;
+    position: absolute;
+    margin: 30px;
+    left: 100px;
+    margin-left: 850px;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+}
+
+#e3{
+    color: white;
+    position: absolute;
+    margin: 30px;
+    left: 230px;
+    margin-left: 850px;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+}
+
+#e4{
+    color: white;
+    position: absolute;
+    margin: 30px;
+    left: 355px;
+    margin-left: 850px;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+}
+
+#e5{
+    color: white;
+    position: absolute;
+    margin: 30px;
+    left: 535px;
+    margin-left: 825px;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+}
+
+.barBase{
+    border-radius: 0%;
+}
+
+.bar{
+    width: 1510px;
+    height: 65px;
+    background: lightgreen;
+    border: 1px solid #000;
+}
+
+.icon{
+    border-radius: 50%;
+}
+
+.circle_icon{
+    width: 50px;
+    height: 50px;
+    background-color: #a1a1a1;
+    border: 4px solid #ffffff;
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 50px;
+    transform: translate(-50%,-50%);
+    background-image: url(/portfolio21.png);
+    background-size: cover;
+}
+
+.skill h1{
+    color: #f34079;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+    font-size: 60px;
+    margin-top: 0px;
+
+}
+
+.skill img{
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.web_d{
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 160px;
+    overflow-x: hidden;
+}
+
+.web_d img {
+    width: 350px;
+    height: 183px;
+    margin-left: 85px;
+    margin-top: -20px;
+}
+
+.web_d p{
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+    color: white;
+    margin-left: 30px;
+    margin-right: 85px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.python{
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 160px;
+    overflow-x: hidden;
+    left: 37%;
+}
+
+.python img {
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: -24px;
+}
+
+.python p{
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+    margin-top: -32px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.c-lang{
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 160px;
+    overflow-x: hidden;
+    left: 70%;
+}
+
+.c-lang img {
+    height: 175px;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 175px;
+}
+
+.c-lang{
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Solway', serif;
+    margin-top: -51px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
